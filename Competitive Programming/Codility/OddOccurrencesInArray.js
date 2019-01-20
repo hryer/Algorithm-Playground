@@ -19,3 +19,24 @@ function solution(A) {
     
     return temp[0];
 }
+
+function solution(A) {
+    let evaluated = {}
+    let result
+  
+    for (number of A) {
+      if (number in evaluated) {
+        continue
+      }
+  
+      const occurrences = A.filter(n => n === number).length
+      if (occurrences % 2 !== 0) {
+        result = number
+        break
+      }
+  
+      evaluated[number] = number
+    }
+  
+    return result
+  }
