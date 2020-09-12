@@ -2,7 +2,7 @@
   "name": "lesson",
   "version": "1.0.0",
   "description": "lat cp",
-  "main": "fibonacci.js",
+  "main": "quicksort.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
